@@ -1,0 +1,24 @@
+header {
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.toptext {
+  text-shadow: grey;
+  color: red;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+}
+
+.mainCenter {
+  text-align: center;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

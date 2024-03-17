@@ -1,14 +1,20 @@
 // DO NOT DELETE
 
 import './App.css'
+import {Header} from './Header';
+import {Description} from './Description';
+import {DogListContainer} from './DogListContainer.jsx';
 
 /**
  * @type {() => JSX.Element}
  */
 export const App = () => {
+
   return (
     <div>
-      <h2>Hello, world!</h2>
+      <Header />
+      <Description/>
+      <DogListContainer/>
     </div>
   )
 }
